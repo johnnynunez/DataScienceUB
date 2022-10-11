@@ -1,0 +1,12 @@
+model
+    {
+    x~dbin(p,n)            
+    p<-theta[r]
+    r~dcat(g[])
+    theta[1]~dbeta(a1,b1) 
+    theta[2]~dbeta(a2,b2)
+    theta[3]~dbeta(a3,b3)
+    g[1]<-gamma1
+    g[2]<-gamma2
+    g[3]<-gamma3
+    }
