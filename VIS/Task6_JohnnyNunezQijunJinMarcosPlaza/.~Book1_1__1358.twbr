@@ -1,0 +1,1563 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook locale='en_GB' source-build='2021.3.3 (20213.21.1018.0949)' source-platform='mac' version='18.1' xml:base='https://dub01.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <Heatmap />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='FinalDashboard' path='/t/livingcostinuk/workbooks' revision='1.1' site='livingcostinuk' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+    <color-palette custom='true' name='BluePalette' type='ordered-sequential'>
+      <color>#1f4763</color>
+      <color>#8dc2e8</color>
+      <color>#46a2e3</color>
+      <color>#0d5a66</color>
+      <color>#497fc2</color>
+    </color-palette>
+    <color-palette custom='true' name='GreenPalette' type='ordered-sequential'>
+      <color>#285219</color>
+      <color>#9bd984</color>
+      <color>#67d141</color>
+      <color>#5c5c2e</color>
+      <color>#4e9e31</color>
+    </color-palette>
+    <color-palette custom='true' name='MagentaPalette' type='ordered-sequential'>
+      <color>#52194d</color>
+      <color>#eb82e2</color>
+      <color>#d141c5</color>
+      <color>#543a52</color>
+      <color>#9e3195</color>
+    </color-palette>
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='lcf_2010_teaching_dataset_dvhh_final_july_v2' inline='true' name='federated.0wl72ac11suva61h6rsul1me2jgl' version='18.1'>
+      <repository-location id='lcf_2010_teaching_dataset_dvhh_final_july_v2' path='datasources' revision='1.0' />
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='lcf_2010_teaching_dataset_dvhh_final_july_v2' name='textscan.1migy201t32fja18ghfmz1cov6ol'>
+            <connection class='textscan' directory='/Users/marcosplazagonzalez/Desktop/VisualitzacioMaster/UKDA-7216-tab/tab' filename='lcf_2010_teaching_dataset_dvhh_final_july_v2.tab' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1migy201t32fja18ghfmz1cov6ol' name='lcf_2010_teaching_dataset_dvhh_final_july_v2.tab' table='[lcf_2010_teaching_dataset_dvhh_final_july_v2#tab]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='integer' name='casenew' ordinal='0' />
+            <column datatype='real' name='weighta' ordinal='1' />
+            <column datatype='real' name='P550tpr' ordinal='2' />
+            <column datatype='real' name='P344pr' ordinal='3' />
+            <column datatype='integer' name='P425r' ordinal='4' />
+            <column datatype='string' name='A172' ordinal='5' />
+            <column datatype='integer' name='A093r' ordinal='6' />
+            <column datatype='integer' name='A094r' ordinal='7' />
+            <column datatype='integer' name='A121r' ordinal='8' />
+            <column datatype='integer' name='SexHRP' ordinal='9' />
+            <column datatype='integer' name='A049r' ordinal='10' />
+            <column datatype='integer' name='G018r' ordinal='11' />
+            <column datatype='integer' name='G019r' ordinal='12' />
+            <column datatype='string' name='Gorx' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1migy201t32fja18ghfmz1cov6ol' name='lcf_2010_teaching_dataset_dvhh_final_july_v2.tab' table='[lcf_2010_teaching_dataset_dvhh_final_july_v2#tab]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='integer' name='casenew' ordinal='0' />
+            <column datatype='real' name='weighta' ordinal='1' />
+            <column datatype='real' name='P550tpr' ordinal='2' />
+            <column datatype='real' name='P344pr' ordinal='3' />
+            <column datatype='integer' name='P425r' ordinal='4' />
+            <column datatype='string' name='A172' ordinal='5' />
+            <column datatype='integer' name='A093r' ordinal='6' />
+            <column datatype='integer' name='A094r' ordinal='7' />
+            <column datatype='integer' name='A121r' ordinal='8' />
+            <column datatype='integer' name='SexHRP' ordinal='9' />
+            <column datatype='integer' name='A049r' ordinal='10' />
+            <column datatype='integer' name='G018r' ordinal='11' />
+            <column datatype='integer' name='G019r' ordinal='12' />
+            <column datatype='string' name='Gorx' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>casenew</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[casenew]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>casenew</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weighta</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[weighta]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>weighta</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P550tpr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[P550tpr]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>P550tpr</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P344pr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[P344pr]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>P344pr</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P425r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[P425r]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>P425r</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A172</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[A172]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>A172</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A093r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A093r]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>A093r</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A094r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A094r]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>A094r</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A121r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A121r]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>A121r</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SexHRP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SexHRP]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>SexHRP</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A049r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A049r]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>A049r</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G018r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G018r]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>G018r</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G019r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G019r]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>G019r</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gorx</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gorx]</local-name>
+            <parent-name>[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab]</parent-name>
+            <remote-alias>Gorx</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Number of persons in household' datatype='integer' name='[A049r]' role='measure' type='quantitative' />
+      <column caption='Economic position of Household Reference Person' datatype='integer' name='[A093r]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='NS-SEC 3 class of Household Reference Person' datatype='integer' name='[A094r]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='1' value='Professional ocupations' />
+          <alias key='2' value='Intermediate occupations' />
+          <alias key='3' value='Manual occupations' />
+          <alias key='4' value='Never worked ' />
+          <alias key='5' value='Not classified ' />
+        </aliases>
+      </column>
+      <column caption='Tenure type' datatype='integer' name='[A121r]' role='measure' type='quantitative' />
+      <column caption='Connection in household' datatype='string' name='[A172]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;1&quot;' value='With connexion' />
+          <alias key='&quot;2&quot;' value='Without connexion' />
+        </aliases>
+      </column>
+      <column caption='Cálculo1' datatype='integer' name='[Calculation_159244497120055299]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [casenew]:COUNTD([casenew])}' />
+      </column>
+      <column aggregation='Sum' caption='Economic position of Household Reference Person (copy)' datatype='integer' name='[Economic position of Household Reference Person (copy)_1825576359608254465]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[A093r]' />
+        <aliases>
+          <alias key='1' value='Full-time working' />
+          <alias key='2' value='Part-time working' />
+          <alias key='3' value='Unemployed ' />
+          <alias key='4' value='Economically inactive' />
+        </aliases>
+      </column>
+      <column caption='Number of adults in household' datatype='integer' name='[G018r]' role='measure' type='quantitative' />
+      <column caption='Number of children in household' datatype='integer' name='[G019r]' role='measure' type='quantitative' />
+      <column caption='Regions of England' datatype='string' name='[Gorx]' role='dimension' semantic-role='[NUTS].[Name]' type='nominal'>
+        <aliases>
+          <alias key='&quot;1&quot;' value='North East England' />
+          <alias key='&quot;10&quot;' value='Wales' />
+          <alias key='&quot;11&quot;' value='Scotland' />
+          <alias key='&quot;12&quot;' value='Northern Ireland' />
+          <alias key='&quot;2&quot;' value='North West England' />
+          <alias key='&quot;3&quot;' value='Yorkshire and the Humber' />
+          <alias key='&quot;4&quot;' value='East Midlands' />
+          <alias key='&quot;5&quot;' value='West Midlands England' />
+          <alias key='&quot;6&quot;' value='East of England' />
+          <alias key='&quot;7&quot;' value='London' />
+          <alias key='&quot;8&quot;' value='South East England' />
+          <alias key='&quot;9&quot;' value='South West England' />
+        </aliases>
+      </column>
+      <column caption='NS-SEC 3 class of Household Reference Person (copy)' datatype='integer' name='[NS-SEC 3 class of Household Reference Person (copy)_1825576359607336960]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[A094r]' />
+      </column>
+      <column caption='Household income' datatype='real' name='[P344pr]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Main source of household income' datatype='integer' name='[P425r]' role='dimension' type='ordinal' />
+      <column caption='Total expenditure' datatype='real' name='[P550tpr]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Sex of Household Reference Person' datatype='integer' name='[SexHRP]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='1' value='Male' />
+          <alias key='2' value='Women' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='lcf_2010_teaching_dataset_dvhh_final_july_v2.tab' datatype='table' name='[__tableau_internal_object_id__].[lcf_2010_teaching_dataset_dvhh_final_july_v2.tab_1F14770EE0BF445D84651B13922F48D5]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Casenew' datatype='integer' name='[casenew]' role='dimension' type='ordinal' />
+      <column caption='Annual weight' datatype='real' name='[weighta]' role='measure' type='quantitative' />
+      <column-instance column='[Economic position of Household Reference Person (copy)_1825576359608254465]' derivation='None' name='[none:Economic position of Household Reference Person (copy)_1825576359608254465:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Gorx]' derivation='None' name='[none:Gorx:nk]' pivot='key' type='nominal' />
+      <column-instance column='[SexHRP]' derivation='None' name='[none:SexHRP:ok]' pivot='key' type='ordinal' />
+      <mapped-images>
+        <mapped-image caption='Diagonal-Reference-Line&amp;entityId=ka00d000000TqoxAAC&amp;field=Attachment_3__Body__s' expression='https://kb.tableau.com/servlet/fileField?retURL=%2Farticles%2Fhowto%2FDiagonal-Reference-Line&amp;entityId=ka00d000000TqoxAAC&amp;field=Attachment_3__Body__s' name='[MappedImage1]'>
+          <mapping bottom='0' left='0.0' right='1.0' top='1' x='[P344pr]' y='[Calculation_159244497120055299]' />
+        </mapped-image>
+        <mapped-image caption='Archivo:RPC-JP_Logo' expression='https://es.wikipedia.org/wiki/Archivo:RPC-JP_Logo.png' name='[MappedImage2]'>
+          <mapping bottom='0' left='1.0' right='0.0' top='1' x='[P344pr]' y='[Calculation_159244497120055299]' />
+        </mapped-image>
+        <mapped-image caption='diagonal' expression='file:///Users/marcosplazagonzalez/Desktop/diagonal.png' name='[MappedImage3]'>
+          <mapping bottom='0' left='0.0' right='100.0' top='100' x='[P344pr]' y='[Calculation_159244497120055299]' />
+        </mapped-image>
+      </mapped-images>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Gorx:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;3&quot;</bucket>
+            </map>
+            <map to='#c22f40'>
+              <bucket>&quot;5&quot;</bucket>
+            </map>
+            <map to='#cd3e43'>
+              <bucket>&quot;10&quot;</bucket>
+            </map>
+            <map to='#d74d46'>
+              <bucket>&quot;9&quot;</bucket>
+            </map>
+            <map to='#e15c48'>
+              <bucket>&quot;8&quot;</bucket>
+            </map>
+            <map to='#e96b49'>
+              <bucket>&quot;11&quot;</bucket>
+            </map>
+            <map to='#f17a4a'>
+              <bucket>&quot;12&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;4&quot;</bucket>
+            </map>
+            <map to='#f5bf5a'>
+              <bucket>&quot;6&quot;</bucket>
+            </map>
+            <map to='#f8894c'>
+              <bucket>&quot;2&quot;</bucket>
+            </map>
+            <map to='#f8ad52'>
+              <bucket>&quot;7&quot;</bucket>
+            </map>
+            <map to='#fb9b4e'>
+              <bucket>&quot;1&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:SexHRP:ok]' palette='green_orange_cyan_yellow_10_0' type='palette'>
+            <map to='#3d7f97'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#e66dac'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Economic position of Household Reference Person (copy)_1825576359608254465:ok]' type='palette'>
+            <map to='#113379'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#5e9bf0'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#e12727'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#e6dd23'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='lcf_2010_teaching_dataset_dvhh_final_july_v2.tab' id='lcf_2010_teaching_dataset_dvhh_final_july_v2.tab_1F14770EE0BF445D84651B13922F48D5'>
+            <properties context=''>
+              <relation connection='textscan.1migy201t32fja18ghfmz1cov6ol' name='lcf_2010_teaching_dataset_dvhh_final_july_v2.tab' table='[lcf_2010_teaching_dataset_dvhh_final_july_v2#tab]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+                  <column datatype='integer' name='casenew' ordinal='0' />
+                  <column datatype='real' name='weighta' ordinal='1' />
+                  <column datatype='real' name='P550tpr' ordinal='2' />
+                  <column datatype='real' name='P344pr' ordinal='3' />
+                  <column datatype='integer' name='P425r' ordinal='4' />
+                  <column datatype='string' name='A172' ordinal='5' />
+                  <column datatype='integer' name='A093r' ordinal='6' />
+                  <column datatype='integer' name='A094r' ordinal='7' />
+                  <column datatype='integer' name='A121r' ordinal='8' />
+                  <column datatype='integer' name='SexHRP' ordinal='9' />
+                  <column datatype='integer' name='A049r' ordinal='10' />
+                  <column datatype='integer' name='G018r' ordinal='11' />
+                  <column datatype='integer' name='G019r' ordinal='12' />
+                  <column datatype='string' name='Gorx' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='ChildrenByRegion'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of children by region&#10;&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='lcf_2010_teaching_dataset_dvhh_final_july_v2' name='federated.0wl72ac11suva61h6rsul1me2jgl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0wl72ac11suva61h6rsul1me2jgl'>
+            <column caption='Number of children in household' datatype='integer' name='[G019r]' role='measure' type='quantitative' />
+            <column caption='Regions of England' datatype='string' name='[Gorx]' role='dimension' semantic-role='[NUTS].[Name]' type='nominal'>
+              <aliases>
+                <alias key='&quot;1&quot;' value='North East England' />
+                <alias key='&quot;10&quot;' value='Wales' />
+                <alias key='&quot;11&quot;' value='Scotland' />
+                <alias key='&quot;12&quot;' value='Northern Ireland' />
+                <alias key='&quot;2&quot;' value='North West England' />
+                <alias key='&quot;3&quot;' value='Yorkshire and the Humber' />
+                <alias key='&quot;4&quot;' value='East Midlands' />
+                <alias key='&quot;5&quot;' value='West Midlands England' />
+                <alias key='&quot;6&quot;' value='East of England' />
+                <alias key='&quot;7&quot;' value='London' />
+                <alias key='&quot;8&quot;' value='South East England' />
+                <alias key='&quot;9&quot;' value='South West England' />
+              </aliases>
+            </column>
+            <column-instance column='[G019r]' derivation='Avg' name='[avg:G019r:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gorx]' derivation='None' name='[none:Gorx:nk]' pivot='key' type='nominal' />
+            <column-instance column='[G019r]' derivation='Sum' name='[sum:G019r:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]' included-values='in-range'>
+            <min>1.4031007751937985</min>
+            <max>1.5819327731092436</max>
+          </filter>
+          <filter class='quantitative' column='[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:G019r:qk]' included-values='all' />
+          <slices>
+            <column>[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:G019r:qk]</column>
+            <column>[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]' field-type='quantitative' max='901665.82574260933' min='-1500330.2193297376' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]' field-type='quantitative' max='7581281.4169785548' min='6424643.0815686099' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:G019r:qk]' palette='purple_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]' num-steps='5' palette='MagentaPalette' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]' value='Prom. Number of children in household' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]' />
+              <lod column='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]' />
+              <lod column='[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]' />
+              <geometry column='[federated.0wl72ac11suva61h6rsul1me2jgl].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.91154694557189941' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='density-kernel-size' value='0.82359117269515991' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</rows>
+        <cols>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='267'>
+            <formatted-text>
+              <run fontcolor='#787878'>Regions of England: </run>
+              <run bold='true'><![CDATA[<[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Average of children in household: </run>
+              <run bold='true'><![CDATA[<[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Geometry (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>1.5819327731092436</value>
+                    <value>&quot;7&quot;</value>
+                    <value>&quot;POLYGON((0.1493 51.4089,0.152 51.3765,0.1417 51.3503,0.0853 51.3165,0.0834 51.2919,0.0426 51.2929,0.0132 51.2949,0.0027 51.3293,-0.024 51.3388,-0.0522 51.3218,-0.0843 51.3163,-0.0963 51.2981,-0.1241 51.2866,-0.1565 51.3019,-0.1566 51.3218,-0.1805 51.3378,-0.2179 51.3427,-0.2452 51.3802,-0.2866 51.3638,-0.3049 51.3359,-0.3307 51.3282,-0.3107 51.3871,-0.318 51.3937,-0.3571 51.4119,-0.4336 51.4286,-0.4589 51.4563,-0.5099 51.4689,-0.4898 51.4952,-0.4913 51.5459,-0.4763 51.5563,-0.5009 51.5994,-0.4981 51.6314,-0.4586 51.6123,-0.4386 51.6204,-0.4077 51.6132,-0.3752 51.6179,-0.3146 51.6405,-0.3048 51.6359,-0.254 51.644,-0.2493 51.6553,-0.1821 51.6685,-0.1632 51.6819,-0.1056 51.6923,-0.061 51.6826,-0.0125 51.6813,-0.012 51.646,0.0228 51.6409,0.0399 51.6161,0.0701 51.605,0.139 51.6236,0.1999 51.6251,0.2248 51.6317,0.2559 51.6162,0.2903 51.5647,0.3134 51.5657,0.3318 51.541,0.2665 51.5329,0.2409 51.5235,0.2117 51.4902,0.1296 51.5195,0.097 51.5158,0.0715 51.4992,0.0221 51.4986,0.01 51.5075,-0.079 51.508,-0.1116 51.5106,-0.1309 51.4863,-0.1497 51.4855,-0.1788 51.4794,-0.186 51.466,-0.2003 51.4648,-0.2174 51.4696,-0.2253 51.4852,-0.2451 51.4889,-0.2545 51.4727,-0.2237 51.4718,-0.2136 51.4654,-0.1897 51.463,-0.1793 51.4684,-0.1705 51.481,-0.1276 51.4847,-0.1081 51.5082,-0.0641 51.5002,-0.0335 51.5065,-0.0245 51.4855,0.0766 51.496,0.0912 51.509,0.131 51.5133,0.1682 51.5029,0.1749 51.4853,0.2183 51.4799,0.2035 51.4542,0.1549 51.4302,0.1522 51.4091,0.1493 51.4089))&quot;</value>
+                    <value>51.489600000000003</value>
+                    <value>-0.31119999999999998</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='156' y='30' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='281'>
+            <formatted-text>
+              <run fontcolor='#787878'>Regions of England: </run>
+              <run bold='true'><![CDATA[<[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Average of children in household: </run>
+              <run bold='true'><![CDATA[<[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Geometry (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>1.4031007751937985</value>
+                    <value>&quot;1&quot;</value>
+                    <value>&quot;POLYGON((-1.4353 54.4879,-1.4586 54.5039,-1.4753 54.4742,-1.5192 54.4855,-1.535 54.4695,-1.5839 54.4985,-1.6057 54.5201,-1.6337 54.5138,-1.655 54.5336,-1.6965 54.536,-1.7319 54.5281,-1.7677 54.5329,-1.7997 54.4862,-1.8359 54.5082,-1.8582 54.4824,-1.9259 54.4567,-1.9698 54.4516,-2.0134 54.4719,-2.0614 54.4808,-2.0845 54.4685,-2.1692 54.4584,-2.1589 54.4712,-2.1726 54.5326,-2.1978 54.5329,-2.2148 54.553,-2.3032 54.5961,-2.322 54.627,-2.2882 54.6504,-2.3222 54.6688,-2.3545 54.6975,-2.3087 54.7749,-2.312 54.7909,-2.3892 54.8315,-2.4094 54.8558,-2.4284 54.8403,-2.4633 54.8304,-2.495 54.8099,-2.5351 54.8068,-2.5691 54.8243,-2.5756 54.8555,-2.605 54.8835,-2.5745 54.8975,-2.567 54.9192,-2.572 55.0061,-2.5735 55.016,-2.5114 55.0359,-2.4905 55.0863,-2.5583 55.084,-2.5918 55.1043,-2.6068 55.1265,-2.6576 55.1359,-2.6738 55.1516,-2.689 55.1892,-2.6673 55.2215,-2.6445 55.2201,-2.6278 55.2683,-2.5727 55.2966,-2.5485 55.3164,-2.5201 55.3228,-2.4907 55.3513,-2.4178 55.3595,-2.3948 55.3472,-2.3411 55.3652,-2.3334 55.4024,-2.2712 55.4294,-2.2047 55.4378,-2.1897 55.462,-2.2061 55.4941,-2.2293 55.5118,-2.2343 55.5487,-2.2891 55.5797,-2.2901 55.6033,-2.3247 55.6263,-2.307 55.6472,-2.2547 55.645,-2.1503 55.7352,-2.1173 55.7384,-2.1092 55.7592,-2.0849 55.7642,-2.0858 55.7933,-2.0361 55.8108,-2.0012 55.7868,-2.0444 55.759,-2.0144 55.7719,-1.9623 55.734,-1.8842 55.695,-1.8675 55.6666,-1.8409 55.6427,-1.8139 55.6334,-1.792 55.6464,-1.7433 55.6182,-1.6915 55.6066,-1.6473 55.5825,-1.6275 55.5535,-1.6141 55.4974,-1.593 55.4912,-1.5785 55.4089,-1.6082 55.3843,-1.5843 55.3356,-1.5504 55.3233,-1.5691 55.2943,-1.566 55.2619,-1.5293 55.2289,-1.5031 55.1877,-1.5262 55.1628,-1.4989 55.129,-1.4969 55.1055,-1.4625 55.0742,-1.4282 55.0264,-1.4526 54.9897,-1.5218 54.9878,-1.5374 54.9646,-1.5841 54.9675,-1.5363 54.961,-1.5226 54.985,-1.4501 54.9863,-1.4245 55.0077,-1.3819 54.9862,-1.3549 54.9577,-1.3637 54.9442,-1.365 54.9432,-1.3748 54.9105,-1.348 54.8602,-1.3256 54.8369,-1.3069 54.7759,-1.2418 54.7228,-1.1945 54.6998,-1.1998 54.6848,-1.1643 54.6471,-1.1669 54.6051,-1.2016 54.5829,-1.2433 54.5918,-1.2529 54.5928,-1.2594 54.5876,-1.2812 54.5648,-1.2553 54.5898,-1.21 54.5794,-1.1965 54.5816,-1.1588 54.604,-1.1394 54.6421,-1.1202 54.6293,-1.0541 54.6171,-1.0038 54.5934,-0.9639 54.5852,-0.9384 54.5893,-0.8997 54.5736,-0.8539 54.5722,-0.7911 54.5596,-0.838 54.5419,-0.8516 54.4989,-0.9535 54.4881,-1.0061 54.5034,-1.038 54.4942,-1.0948 54.5072,-1.1129 54.4992,-1.235 54.5108,-1.2923 54.4802,-1.3443 54.4645,-1.3732 54.4727,-1.3751 54.4907,-1.4181 54.4767,-1.4353 54.4879))&quot;</value>
+                    <value>55.132399999999997</value>
+                    <value>-2.0703</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-148' y='-125' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{D6B933CD-854D-4AF9-A4EF-E702DDC2BAD2}' />
+    </worksheet>
+    <worksheet name='SalaryInequality'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Helvetica Neue Light' fontsize='11'>Salary inequality </run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#b4b4b4' fontname='Helvetica Neue Light' fontsize='9'>(Lorenz Curve)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='lcf_2010_teaching_dataset_dvhh_final_july_v2' name='federated.0wl72ac11suva61h6rsul1me2jgl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wl72ac11suva61h6rsul1me2jgl'>
+            <column caption='Cálculo1' datatype='integer' name='[Calculation_159244497120055299]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [casenew]:COUNTD([casenew])}' />
+            </column>
+            <column caption='Household income' datatype='real' name='[P344pr]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Casenew' datatype='integer' name='[casenew]' role='dimension' type='ordinal' />
+            <column-instance column='[casenew]' derivation='None' name='[none:casenew:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_159244497120055299]' derivation='Sum' name='[pcto:cum:sum:Calculation_159244497120055299:qk:3]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Sum' ordering-field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' ordering-type='Field' type='CumTotal' />
+              <table-calc ordering-field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[P344pr]' derivation='Sum' name='[pcto:cum:sum:P344pr:qk:1]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Sum' ordering-field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' ordering-type='Field' type='CumTotal' />
+              <table-calc ordering-field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[P344pr]' derivation='Sum' name='[sum:P344pr:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' direction='DESC' using='[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:P344pr:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[pcto:cum:sum:Calculation_159244497120055299:qk:3]' scope='rows' value='% Percent of income' />
+            <format attr='title' class='0' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[pcto:cum:sum:P344pr:qk:1]' scope='cols' value='% Percent of population' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' value='#000000' />
+            <format attr='background-color' scope='cols' value='#00000000' />
+            <format attr='background-color' data-class='subtotal' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#000000' />
+            <format attr='text-align' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' value='auto' />
+            <format attr='vertical-align' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' value='auto' />
+            <format attr='wrap' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' value='auto' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='0' />
+            <format attr='band-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='mapped-image'>
+            <format attr='enabled' id='[federated.0wl72ac11suva61h6rsul1me2jgl].[MappedImage2]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:casenew:ok]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.0099999997764825821' />
+                <format attr='shape' value='circle' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wl72ac11suva61h6rsul1me2jgl].[pcto:cum:sum:Calculation_159244497120055299:qk:3]</rows>
+        <cols>[federated.0wl72ac11suva61h6rsul1me2jgl].[pcto:cum:sum:P344pr:qk:1]</cols>
+      </table>
+      <simple-id uuid='{609579AF-8C44-49AB-A615-B807A8F52F30}' />
+    </worksheet>
+    <worksheet name='Schedule Type Work'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='11'>Schedule Type work by Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='lcf_2010_teaching_dataset_dvhh_final_july_v2' name='federated.0wl72ac11suva61h6rsul1me2jgl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wl72ac11suva61h6rsul1me2jgl'>
+            <column caption='Economic position of Household Reference Person' datatype='integer' name='[A093r]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Economic position of Household Reference Person (copy)' datatype='integer' name='[Economic position of Household Reference Person (copy)_1825576359608254465]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[A093r]' />
+              <aliases>
+                <alias key='1' value='Full-time working' />
+                <alias key='2' value='Part-time working' />
+                <alias key='3' value='Unemployed ' />
+                <alias key='4' value='Economically inactive' />
+              </aliases>
+            </column>
+            <column aggregation='Sum' caption='Sex of Household Reference Person' datatype='integer' name='[SexHRP]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='1' value='Male' />
+                <alias key='2' value='Women' />
+              </aliases>
+            </column>
+            <column-instance column='[Economic position of Household Reference Person (copy)_1825576359608254465]' derivation='None' name='[none:Economic position of Household Reference Person (copy)_1825576359608254465:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[SexHRP]' derivation='None' name='[none:SexHRP:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[A093r]' derivation='Sum' name='[sum:A093r:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:A093r:qk]' scope='rows' value='Number of people' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:SexHRP:ok]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:A093r:qk]' value='*' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:A093r:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Economic position of Household Reference Person (copy)_1825576359608254465:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:A093r:qk]</rows>
+        <cols>([federated.0wl72ac11suva61h6rsul1me2jgl].[none:SexHRP:ok] / [federated.0wl72ac11suva61h6rsul1me2jgl].[none:Economic position of Household Reference Person (copy)_1825576359608254465:ok])</cols>
+      </table>
+      <simple-id uuid='{9003DC83-54A6-4BB3-B811-B564E6B7C0E6}' />
+    </worksheet>
+    <worksheet name='Sheet 2 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='11'>Money saved by Regions</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='lcf_2010_teaching_dataset_dvhh_final_july_v2' name='federated.0wl72ac11suva61h6rsul1me2jgl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0wl72ac11suva61h6rsul1me2jgl'>
+            <column caption='AVG([Household income]-[Total expenditure])/AVG([Household in...' datatype='real' name='[Calculation_2582392204321894405]' role='measure' type='quantitative' user:unnamed='Sheet 2 (2)'>
+              <calculation class='tableau' formula='AVG([P344pr]-[P550tpr])/AVG([P344pr])*100' />
+            </column>
+            <column caption='Regions of England' datatype='string' name='[Gorx]' role='dimension' semantic-role='[NUTS].[Name]' type='nominal'>
+              <aliases>
+                <alias key='&quot;1&quot;' value='North East England' />
+                <alias key='&quot;10&quot;' value='Wales' />
+                <alias key='&quot;11&quot;' value='Scotland' />
+                <alias key='&quot;12&quot;' value='Northern Ireland' />
+                <alias key='&quot;2&quot;' value='North West England' />
+                <alias key='&quot;3&quot;' value='Yorkshire and the Humber' />
+                <alias key='&quot;4&quot;' value='East Midlands' />
+                <alias key='&quot;5&quot;' value='West Midlands England' />
+                <alias key='&quot;6&quot;' value='East of England' />
+                <alias key='&quot;7&quot;' value='London' />
+                <alias key='&quot;8&quot;' value='South East England' />
+                <alias key='&quot;9&quot;' value='South West England' />
+              </aliases>
+            </column>
+            <column caption='Household income' datatype='real' name='[P344pr]' role='measure' type='quantitative' />
+            <column caption='Total expenditure' datatype='real' name='[P550tpr]' role='measure' type='quantitative' />
+            <column-instance column='[Gorx]' derivation='None' name='[none:Gorx:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2582392204321894405]' derivation='User' name='[usr:Calculation_2582392204321894405:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[usr:Calculation_2582392204321894405:qk]' max='31.315214505317044' min='18.670135893485337' num-steps='5' palette='GreenPalette' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[usr:Calculation_2582392204321894405:qk]' value='   Saves per region&#10;   (% mean)' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]' />
+              <color column='[federated.0wl72ac11suva61h6rsul1me2jgl].[usr:Calculation_2582392204321894405:qk]' />
+              <geometry column='[federated.0wl72ac11suva61h6rsul1me2jgl].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.75762432813644409' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+                <format attr='has-halo' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</rows>
+        <cols>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</cols>
+        <annotations>
+          <annotation class='point' id='6' mark-position='1' pullback='12' text-width='287'>
+            <formatted-text>
+              <run fontcolor='#787878'>Regions of England: </run>
+              <run bold='true'><![CDATA[<[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Saves per income: </run>
+              <run bold='true'><![CDATA[<[federated.0wl72ac11suva61h6rsul1me2jgl].[usr:Calculation_2582392204321894405:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Geometry (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[usr:Calculation_2582392204321894405:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;9&quot;</value>
+                    <value>&quot;MULTIPOLYGON(((-4.1234 50.3466,-4.1246 50.3647,-4.184 50.3664,-4.2029 50.3951,-4.186 50.4246,-4.2188 50.4753,-4.2003 50.4384,-4.2114 50.3995,-4.2651 50.3873,-4.3019 50.3945,-4.2768 50.3739,-4.2317 50.3906,-4.2024 50.3888,-4.2012 50.3332,-4.2187 50.3155,-4.2357 50.338,-4.3076 50.3618,-4.3861 50.3647,-4.4406 50.3596,-4.4531 50.3443,-4.5401 50.324,-4.5771 50.332,-4.6263 50.3238,-4.6329 50.3586,-4.6321 50.3377,-4.6523 50.3241,-4.6846 50.3218,-4.705 50.3411,-4.7625 50.3272,-4.7809 50.29,-4.7797 50.2591,-4.8041 50.2184,-4.8185 50.2321,-4.8653 50.235,-4.9216 50.1956,-4.9506 50.2055,-4.9955 50.1666,-4.9942 50.1759,-4.9972 50.1764,-5.0502 50.1538,-5.0773 50.1401,-5.0899 50.1036,-5.1422 50.1058,-5.1626 50.1113,-5.16 50.0942,-5.1783 50.089,-5.1042 50.0944,-5.0779 50.0842,-5.0621 50.0616,-5.0933 50.0163,-5.1643 50.0058,-5.1849 49.981,-5.1847 49.9628,-5.2154 49.9604,-5.246 49.9755,-5.2553 50.0219,-5.2796 50.057,-5.3168 50.0831,-5.3631 50.0887,-5.3894 50.1034,-5.4278 50.0981,-5.4665 50.124,-5.5273 50.1257,-5.5484 50.1072,-5.5332 50.0873,-5.5506 50.062,-5.6792 50.0349,-5.7165 50.0691,-5.6931 50.0807,-5.7006 50.1199,-5.6948 50.1455,-5.6644 50.1662,-5.6264 50.1687,-5.6092 50.1858,-5.5306 50.2131,-5.4938 50.2191,-5.4683 50.1988,-5.431 50.1902,-5.393 50.2274,-5.3353 50.2399,-5.3071 50.2593,-5.2624 50.2763,-5.2462 50.284,-5.2345 50.3185,-5.2039 50.3217,-5.1547 50.3476,-5.1447 50.3919,-5.0958 50.4232,-5.076 50.4157,-5.0434 50.4439,-5.0276 50.5109,-5.0259 50.5413,-4.9805 50.5437,-4.9526 50.5693,-4.9321 50.5281,-4.8544 50.5292,-4.8996 50.5306,-4.9258 50.5445,-4.9309 50.5649,-4.9086 50.5852,-4.8819 50.5832,-4.8503 50.5974,-4.7956 50.5981,-4.7701 50.6225,-4.7614 50.6675,-4.685 50.6957,-4.6585 50.7128,-4.6366 50.7485,-4.5605 50.7829,-4.556 50.8603,-4.5667 50.9074,-4.5457 50.9283,-4.5326 50.9647,-4.5278 51.0183,-4.4706 51.0219,-4.4272 51.0137,-4.376 50.99,-4.3076 50.9949,-4.2572 51.0386,-4.1478 51.0805,-4.1034 51.0832,-4.0591 51.0768,-4.1129 51.0948,-4.2029 51.07,-4.2163 51.0757,-4.2218 51.1444,-4.2031 51.1969,-4.073 51.2157,-4.0702 51.216,-3.9488 51.2208,-3.911 51.2308,-3.8942 51.2237,-3.8408 51.2356,-3.7712 51.2376,-3.7215 51.2326,-3.5981 51.2208,-3.5779 51.2313,-3.534 51.231,-3.4486 51.2091,-3.4056 51.1822,-3.373 51.1851,-3.3143 51.1791,-3.1819 51.1999,-3.1566 51.2082,-3.1028 51.2089,-3.0786 51.2007,-3.0017 51.2221,-3.0007 51.2441,-3.0224 51.269,-3.0122 51.3248,-2.9934 51.3206,-2.9845 51.3607,-2.9685 51.3917,-2.9124 51.3952,-2.8504 51.4549,-2.8004 51.4851,-2.7245 51.5016,-2.6806 51.4809,-2.7155 51.5062,-2.6736 51.5445,-2.6672 51.5689,-2.6277 51.606,-2.5828 51.629,-2.5582 51.6672,-2.5345 51.677,-2.4883 51.7011,-2.4818 51.7255,-2.4545 51.7384,-2.4292 51.7375,-2.3834 51.7578,-2.3823 51.7752,-2.4387 51.7874,-2.4472 51.7965,-2.4325 51.8126,-2.3721 51.7918,-2.3535 51.7937,-2.3621 51.8247,-2.3569 51.7952,-2.4021 51.8041,-2.4129 51.8165,-2.4297 51.8184,-2.4449 51.8095,-2.4502 51.7862,-2.4052 51.7782,-2.4981 51.7255,-2.5055 51.7102,-2.6033 51.676,-2.6492 51.63,-2.6665 51.6391,-2.6823 51.6692,-2.6685 51.688,-2.6789 51.7661,-2.6733 51.8086,-2.6503 51.8265,-2.6027 51.8563,-2.52 51.867,-2.509 51.8855,-2.4449 51.8941,-2.4446 51.9142,-2.4661 51.9274,-2.4728 51.9567,-2.4965 51.9778,-2.4768 52.0236,-2.436 52.0152,-2.4351 51.9962,-2.3996 51.9963,-2.3937 52.0124,-2.3515 52.0205,-2.325 52.0051,-2.301 51.9667,-2.2524 51.9672,-2.2292 51.9906,-2.1633 51.9984,-2.1812 52.042,-2.1656 52.05,-2.1201 52.0137,-2.0611 52.0144,-2.0419 52.0036,-1.9853 52.0349,-1.9308 52.0305,-1.9123 52.0442,-1.8373 52.0072,-1.8297 52.0398,-1.8527 52.0484,-1.8699 52.0739,-1.8166 52.0793,-1.7897 52.1065,-1.7676 52.1124,-1.7284 52.0709,-1.6901 52.0547,-1.6646 52.0309,-1.6278 52.0373,-1.665 51.9872,-1.6632 51.9638,-1.6317 51.956,-1.6396 51.8962,-1.6614 51.8949,-1.687 51.8351,-1.6796 51.8068,-1.7013 51.7719,-1.6762 51.7035,-1.6829 51.6901,-1.6988 51.6777,-1.663 51.6304,-1.6879 51.6079,-1.6847 51.5728,-1.6549 51.5767,-1.6033 51.5182,-1.5844 51.5246,-1.5822 51.4931,-1.5602 51.4698,-1.5246 51.4507,-1.5306 51.4283,-1.5681 51.4209,-1.5471 51.3903,-1.5182 51.3795,-1.4857 51.3492,-1.4982 51.3298,-1.5289 51.3358,-1.5224 51.2874,-1.5352 51.2861,-1.5451 51.2451,-1.5769 51.2556,-1.6066 51.2526,-1.6327 51.2182,-1.6884 51.2144,-1.655 51.1578,-1.6631 51.127,-1.6274 51.1179,-1.6355 51.0871,-1.6346 51.0436,-1.6069 51.0255,-1.628 51.0006,-1.6131 50.9703,-1.6631 50.9453,-1.7219 50.9775,-1.7903 50.9905,-1.8168 50.9868,-1.8357 51.0094,-1.8749 51.0045,-1.9561 50.9888,-1.874 50.9173,-1.8402 50.9317,-1.8116 50.9274,-1.824 50.897,-1.8428 50.8969,-1.8503 50.8589,-1.8067 50.8634,-1.8044 50.8036,-1.7874 50.7654,-1.7492 50.7793,-1.7428 50.7482,-1.7051 50.7529,-1.6925 50.737,-1.7691 50.7273,-1.7426 50.7191,-1.7538 50.7125,-1.8134 50.7209,-1.8837 50.7145,-1.9288 50.6944,-1.97 50.7201,-1.9982 50.7071,-2.0271 50.7295,-2.0414 50.7071,-2.0014 50.6695,-1.9533 50.6555,-1.9476 50.6279,-1.9557 50.5925,-2.0278 50.5885,-2.106 50.5966,-2.1569 50.6158,-2.1946 50.6227,-2.2416 50.6158,-2.4195 50.6366,-2.4402 50.628,-2.4702 50.5847,-2.4625 50.5719,-2.4285 50.5683,-2.4175 50.5431,-2.4601 50.5203,-2.4497 50.5615,-2.4987 50.5943,-2.5877 50.6419,-2.6551 50.6726,-2.793 50.7183,-2.9055 50.7339,-2.9391 50.72,-2.9472 50.7182,-2.9811 50.7053,-3.0267 50.6982,-3.0685 50.7035,-3.0953 50.6858,-3.1787 50.6853,-3.2668 50.6706,-3.2942 50.6355,-3.3869 50.6073,-3.4139 50.616,-3.4434 50.6681,-3.456 50.6566,-3.4438 50.5951,-3.4953 50.5444,-3.5087 50.5163,-3.5193 50.454,-3.5362 50.4629,-3.5598 50.4355,-3.5543 50.4115,-3.5115 50.3975,-3.5075 50.3788,-3.5182 50.3465,-3.5436 50.3353,-3.5853 50.3604,-3.5711 50.3265,-3.6119 50.3189,-3.6372 50.2976,-3.6597 50.2374,-3.7235 50.2014,-3.7471 50.2186,-3.824 50.2174,-3.8548 50.2346,-3.8588 50.2625,-3.9099 50.2945,-3.9432 50.2959,-3.974 50.3076,-4.0517 50.2943,-4.0845 50.3176,-4.1196 50.3197,-4.1234 50.3466)),((-1.7426 50.7191,-1.7418 50.7219,-1.7404 50.722,-1.7426 50.7191)))&quot;</value>
+                    <value>51.031999999999996</value>
+                    <value>-2.9409000000000001</value>
+                    <value>18.67013589348532</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='211' y='-142' />
+          </annotation>
+          <annotation class='point' id='7' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Regions of England: </run>
+              <run bold='true'><![CDATA[<[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Saves per income: </run>
+              <run bold='true'><![CDATA[<[federated.0wl72ac11suva61h6rsul1me2jgl].[usr:Calculation_2582392204321894405:qk]>%]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Geometry (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</field>
+                      <field>[federated.0wl72ac11suva61h6rsul1me2jgl].[usr:Calculation_2582392204321894405:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;10&quot;</value>
+                    <value>&quot;MULTIPOLYGON(((-3.0824 51.5018,-3.1232 51.4908,-3.1352 51.4667,-3.1657 51.4405,-3.1877 51.4006,-3.2306 51.4021,-3.2558 51.3928,-3.2628 51.392,-3.3114 51.3928,-3.3447 51.3816,-3.4046 51.3811,-3.5203 51.4004,-3.557 51.4007,-3.5875 51.4336,-3.6399 51.4612,-3.6383 51.4705,-3.6735 51.48,-3.7087 51.475,-3.7439 51.5036,-3.7643 51.5413,-3.8022 51.5834,-3.8495 51.6124,-3.8867 51.618,-3.9296 51.6138,-3.9642 51.6114,-3.9939 51.5978,-3.9948 51.563,-4.031 51.5705,-4.0742 51.5625,-4.1238 51.5702,-4.1568 51.5625,-4.1614 51.5446,-4.2068 51.539,-4.2371 51.5417,-4.2878 51.5619,-4.3055 51.6127,-4.2361 51.6359,-4.187 51.6255,-4.1148 51.6443,-4.068 51.6692,-4.0521 51.7031,-4.0815 51.6886,-4.0811 51.6639,-4.1505 51.6546,-4.1805 51.6792,-4.212 51.6854,-4.2906 51.6676,-4.3215 51.6765,-4.3795 51.7233,-4.3663 51.7879,-4.3273 51.8001,-4.3641 51.7946,-4.3897 51.764,-4.4222 51.7408,-4.4621 51.7313,-4.5529 51.7419,-4.6622 51.7318,-4.6974 51.7127,-4.6885 51.6992,-4.7232 51.6518,-4.7579 51.6538,-4.7842 51.6349,-4.8081 51.6446,-4.8565 51.6476,-4.8924 51.6311,-4.9039 51.6122,-4.9477 51.5974,-4.9871 51.6134,-5.0332 51.6184,-5.0648 51.6637,-5.0513 51.6938,-4.9681 51.689,-4.9333 51.7045,-4.9181 51.6991,-4.9046 51.7073,-4.8912 51.7072,-4.8867 51.716,-4.833 51.7238,-4.8816 51.7185,-4.8961 51.7395,-4.889 51.7669,-4.9414 51.7858,-4.9403 51.7649,-4.9021 51.7662,-4.8941 51.7114,-4.9231 51.7049,-4.9336 51.7099,-4.9879 51.6993,-5.0319 51.711,-5.0864 51.7057,-5.0964 51.7218,-5.187 51.7091,-5.2271 51.7221,-5.204 51.7544,-5.161 51.772,-5.1167 51.7686,-5.1025 51.8052,-5.1179 51.8462,-5.1356 51.8632,-5.1924 51.8722,-5.2652 51.8719,-5.307 51.8636,-5.3048 51.9088,-5.2538 51.9164,-5.2075 51.9334,-5.1937 51.9499,-5.1662 51.948,-5.0853 51.9686,-5.0886 52.0176,-5.0622 52.032,-4.9878 52.0242,-4.9695 52.0009,-4.9354 52.0062,-4.9031 52.0341,-4.8866 52.0207,-4.8333 52.022,-4.8291 52.0536,-4.7849 52.0601,-4.7295 52.1174,-4.6906 52.104,-4.6896 52.1234,-4.6377 52.1381,-4.5573 52.1436,-4.5159 52.1359,-4.4674 52.1657,-4.445 52.1703,-4.3708 52.2178,-4.3245 52.2134,-4.2551 52.2484,-4.2075 52.2633,-4.1387 52.3237,-4.0956 52.3946,-4.0821 52.441,-4.052 52.4966,-4.0593 52.524,-4.0121 52.5269,-3.9565 52.5554,-3.9368 52.555,-3.9431 52.5607,-4.0621 52.542,-4.1291 52.6134,-4.1162 52.6433,-4.0917 52.67,-4.0553 52.688,-4.0537 52.711,-4.0362 52.7131,-4.0013 52.7218,-3.995 52.7399,-4.0615 52.721,-4.0809 52.748,-4.1387 52.795,-4.1527 52.8143,-4.1187 52.8449,-4.1452 52.8837,-4.1513 52.9067,-4.2208 52.9194,-4.2694 52.91,-4.3243 52.9061,-4.3275 52.8929,-4.3804 52.8966,-4.4143 52.8888,-4.477 52.8583,-4.5028 52.8314,-4.4989 52.8108,-4.5317 52.7776,-4.5385 52.8023,-4.5833 52.8224,-4.6128 52.8243,-4.6499 52.7996,-4.7209 52.8027,-4.7352 52.7826,-4.7666 52.7942,-4.688 52.8753,-4.6316 52.9061,-4.6174 52.9225,-4.5728 52.9389,-4.5236 52.9376,-4.4953 52.953,-4.4361 52.9986,-4.4071 52.9985,-4.351 53.0354,-4.3356 53.0802,-4.348 53.1125,-4.3124 53.1068,-4.3139 53.1249,-4.272 53.1454,-4.2411 53.172,-4.209 53.1858,-4.1926 53.2143,-4.1619 53.2188,-4.1222 53.2372,-4.0842 53.2289,-4.0317 53.2369,-4.0061 53.2472,-3.9615 53.2652,-3.9334 53.2685,-3.8791 53.2894,-3.838 53.2951,-3.8409 53.3368,-3.8115 53.3219,-3.7769 53.3286,-3.7089 53.2935,-3.601 53.2912,-3.5625 53.3002,-3.4812 53.3285,-3.363 53.3517,-3.3189 53.3576,-3.3075 53.336,-3.2653 53.3234,-3.2098 53.2976,-3.1284 53.2519,-3.0251 53.2139,-3.0906 53.2432,-3.0855 53.2565,-3.0838 53.2558,-3.0286 53.25,-2.9498 53.2121,-2.9217 53.1896,-2.9281 53.1707,-2.9743 53.1575,-2.9636 53.1322,-2.9105 53.1125,-2.8957 53.1141,-2.877 53.0824,-2.8668 53.0434,-2.8351 52.9985,-2.8038 52.9901,-2.7813 52.9961,-2.7273 52.9828,-2.7284 52.9253,-2.7568 52.9241,-2.7903 52.9041,-2.8565 52.9434,-2.8981 52.9507,-2.9332 52.9415,-2.9719 52.9591,-3.0076 52.957,-3.0315 52.9307,-3.0979 52.9298,-3.1192 52.8956,-3.148 52.8906,-3.1273 52.8674,-3.1685 52.819,-3.1575 52.7929,-3.1101 52.7863,-3.0799 52.7714,-3.0131 52.7651,-2.9852 52.7226,-3.0208 52.7205,-3.044 52.6925,-3.0531 52.6477,-3.0998 52.5979,-3.1398 52.5862,-3.1112 52.5411,-3.0586 52.556,-3.0364 52.5721,-2.9997 52.5652,-3.0031 52.5211,-3.025 52.5242,-3.0521 52.4993,-3.112 52.499,-3.1781 52.4744,-3.2124 52.4687,-3.2352 52.4452,-3.2188 52.4206,-3.1726 52.4066,-3.1549 52.3876,-3.1098 52.3772,-3.0918 52.3619,-3.0432 52.3445,-2.9731 52.355,-2.9548 52.3488,-2.9669 52.3292,-3.0009 52.3227,-3.0122 52.2805,-2.9509 52.2699,-2.965 52.262,-3.0116 52.2632,-3.0734 52.2354,-3.1121 52.1701,-3.1106 52.1401,-3.1234 52.1032,-3.1167 52.0656,-3.0878 52.0434,-3.0974 52.0204,-3.067 51.9828,-3.0107 51.9426,-3.0021 51.9236,-2.9766 51.9273,-2.9716 51.9051,-2.9241 51.9149,-2.8895 51.9333,-2.8582 51.9276,-2.8015 51.8902,-2.7406 51.8376,-2.6982 51.8441,-2.6503 51.8265,-2.6733 51.8086,-2.6789 51.7661,-2.6685 51.688,-2.6823 51.6692,-2.6665 51.6391,-2.6589 51.6226,-2.7121 51.5822,-2.7553 51.5793,-2.8481 51.5444,-2.9078 51.5324,-2.9525 51.5347,-2.973 51.5752,-2.9928 51.593,-2.9769 51.5784,-2.9955 51.5362,-3.0824 51.5018)),((-4.4075 53.1438,-4.4167 53.1664,-4.3846 53.1712,-4.3853 53.1912,-4.4425 53.1569,-4.4635 53.1827,-4.5051 53.1877,-4.5041 53.2162,-4.5521 53.2487,-4.5938 53.2409,-4.624 53.2793,-4.6833 53.2821,-4.6969 53.3078,-4.6554 53.3212,-4.5962 53.3055,-4.5733 53.2882,-4.5603 53.3127,-4.5694 53.4057,-4.5153 53.4141,-4.4719 53.4221,-4.4544 53.416,-4.4237 53.4298,-4.3328 53.416,-4.2769 53.4053,-4.2777 53.3805,-4.2449 53.3607,-4.199 53.2976,-4.1433 53.3051,-4.0987 53.3186,-4.0568 53.3034,-4.0864 53.2634,-4.2008 53.216,-4.2135 53.1944,-4.2817 53.1561,-4.3589 53.1313,-4.4075 53.1438)))&quot;</value>
+                    <value>52.369500000000002</value>
+                    <value>-3.6057999999999999</value>
+                    <value>31.315214505317044</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-95' y='-271' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{723352A1-7820-4EC7-A067-208A2E0F37FF}' />
+    </worksheet>
+    <worksheet name='Sheet 2 (3)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Internet Connexion by Regions</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='lcf_2010_teaching_dataset_dvhh_final_july_v2' name='federated.0wl72ac11suva61h6rsul1me2jgl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0wl72ac11suva61h6rsul1me2jgl'>
+            <column caption='Connection in household' datatype='string' name='[A172]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;1&quot;' value='With connexion' />
+                <alias key='&quot;2&quot;' value='Without connexion' />
+              </aliases>
+            </column>
+            <column caption='Regions of England' datatype='string' name='[Gorx]' role='dimension' semantic-role='[NUTS].[Name]' type='nominal'>
+              <aliases>
+                <alias key='&quot;1&quot;' value='North East England' />
+                <alias key='&quot;10&quot;' value='Wales' />
+                <alias key='&quot;11&quot;' value='Scotland' />
+                <alias key='&quot;12&quot;' value='Northern Ireland' />
+                <alias key='&quot;2&quot;' value='North West England' />
+                <alias key='&quot;3&quot;' value='Yorkshire and the Humber' />
+                <alias key='&quot;4&quot;' value='East Midlands' />
+                <alias key='&quot;5&quot;' value='West Midlands England' />
+                <alias key='&quot;6&quot;' value='East of England' />
+                <alias key='&quot;7&quot;' value='London' />
+                <alias key='&quot;8&quot;' value='South East England' />
+                <alias key='&quot;9&quot;' value='South West England' />
+              </aliases>
+            </column>
+            <column-instance column='[A172]' derivation='Count' name='[cnt:A172:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gorx]' derivation='None' name='[none:Gorx:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#ffffff' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[cnt:A172:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[cnt:A172:qk]' num-steps='5' palette='BluePalette' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#ffffff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[cnt:A172:qk]' value='   Internet connection in household&#10;   (counts per region)&#10;' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Gorx:nk]' />
+              <color column='[federated.0wl72ac11suva61h6rsul1me2jgl].[cnt:A172:qk]' />
+              <geometry column='[federated.0wl72ac11suva61h6rsul1me2jgl].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='255' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wl72ac11suva61h6rsul1me2jgl].[Latitude (generated)]</rows>
+        <cols>[federated.0wl72ac11suva61h6rsul1me2jgl].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{122167B8-E6B6-41F2-99DB-484D12C91DA8}' />
+    </worksheet>
+    <worksheet name='Type of work'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='11'>Type of work by Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='lcf_2010_teaching_dataset_dvhh_final_july_v2' name='federated.0wl72ac11suva61h6rsul1me2jgl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wl72ac11suva61h6rsul1me2jgl'>
+            <column aggregation='Sum' caption='NS-SEC 3 class of Household Reference Person' datatype='integer' name='[A094r]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='1' value='Professional ocupations' />
+                <alias key='2' value='Intermediate occupations' />
+                <alias key='3' value='Manual occupations' />
+                <alias key='4' value='Never worked ' />
+                <alias key='5' value='Not classified ' />
+              </aliases>
+            </column>
+            <column caption='NS-SEC 3 class of Household Reference Person (copy)' datatype='integer' name='[NS-SEC 3 class of Household Reference Person (copy)_1825576359607336960]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[A094r]' />
+            </column>
+            <column aggregation='Sum' caption='Sex of Household Reference Person' datatype='integer' name='[SexHRP]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='1' value='Male' />
+                <alias key='2' value='Women' />
+              </aliases>
+            </column>
+            <column-instance column='[A094r]' derivation='None' name='[none:A094r:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[SexHRP]' derivation='None' name='[none:SexHRP:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[NS-SEC 3 class of Household Reference Person (copy)_1825576359607336960]' derivation='Sum' name='[sum:NS-SEC 3 class of Household Reference Person (copy)_1825576359607336960:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:NS-SEC 3 class of Household Reference Person (copy)_1825576359607336960:qk]' scope='rows' value='Number of people' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' value='#000000' />
+            <format attr='color' data-class='total' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='background-color' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:SexHRP:ok]' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:NS-SEC 3 class of Household Reference Person (copy)_1825576359607336960:qk]' value='*' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='2' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:SexHRP:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0wl72ac11suva61h6rsul1me2jgl].[sum:NS-SEC 3 class of Household Reference Person (copy)_1825576359607336960:qk]</rows>
+        <cols>[federated.0wl72ac11suva61h6rsul1me2jgl].[none:A094r:ok]</cols>
+      </table>
+      <simple-id uuid='{A054A20D-8E26-4569-8FFC-3446FFAEC738}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='2' fontcolor='#182e48' fontname='Heiti SC' fontsize='72'>The</run>
+            <run fontalignment='2' fontcolor='#182e48' fontname='Benton Sans SemiDemi' fontsize='72'>Æ </run>
+            <run bold='true' fontalignment='2' fontcolor='#182e48' fontname='Benton Sans SemiDemi' fontsize='72'>living cost </run>
+            <run fontalignment='2' fontcolor='#182e48' fontname='Heiti SC' fontsize='72'>in </run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run fontalignment='2' fontcolor='#182e48' fontname='Heiti SC' fontsize='72'>the </run>
+            <run bold='true' fontalignment='2' fontcolor='#3265a0' fontname='Benton Sans SemiDemi' fontsize='72'>UK</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f5f5f5' />
+        </style-rule>
+      </style>
+      <size maxheight='1600' maxwidth='2600' minheight='1400' minwidth='2400' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98858' id='96' param='horz' type-v2='layout-flow' w='99334' x='333' y='571'>
+            <zone h='98858' id='91' param='horz' type-v2='layout-flow' w='92667' x='333' y='571'>
+              <zone h='98858' id='20' param='vert' type-v2='layout-flow' w='86000' x='333' y='571'>
+                <zone h='98858' id='7' param='horz' type-v2='layout-flow' w='86000' x='333' y='571'>
+                  <zone h='98858' id='5' type-v2='layout-basic' w='86000' x='333' y='571' />
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='98858' id='90' is-fixed='true' param='vert' type-v2='layout-flow' w='6667' x='86333' y='571'>
+                <zone h='1785' id='92' type-v2='text' w='6667' x='86333' y='571'>
+                  <formatted-text>
+                    <run>SAMPLE&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98858' id='95' is-fixed='true' param='vert' type-v2='layout-flow' w='6667' x='93000' y='571'>
+              <zone h='1785' id='97' type-v2='text' w='6667' x='93000' y='571'>
+                <formatted-text>
+                  <run>Children per housing&#10;</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='104500' id='119' type-v2='empty' w='2083' x='60958' y='-2357'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#8989894e' />
+          </zone-style>
+        </zone>
+        <zone h='4357' id='118' type-v2='empty' w='39625' x='-1500' y='47000'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#8989894e' />
+          </zone-style>
+        </zone>
+        <zone h='47143' id='113' type-v2='empty' w='41333' x='-2458' y='2500'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#14468c' />
+          </zone-style>
+        </zone>
+        <zone h='102214' id='60' type-v2='empty' w='38708' x='62000' y='-571'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#14468c' />
+          </zone-style>
+        </zone>
+        <zone h='18286' id='110' type-v2='empty' w='16833' x='88208' y='73500'>
+          <zone-style>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='dashed' />
+            <format attr='border-width' value='2' />
+            <format attr='background-color' value='#70adf3' />
+          </zone-style>
+        </zone>
+        <zone h='18286' id='109' type-v2='empty' w='16833' x='84417' y='45500'>
+          <zone-style>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='dashed' />
+            <format attr='border-width' value='2' />
+            <format attr='background-color' value='#70adf3' />
+          </zone-style>
+        </zone>
+        <zone h='17929' id='108' type-v2='empty' w='16833' x='84417' y='18000'>
+          <zone-style>
+            <format attr='border-color' value='#e6e6e6' />
+            <format attr='border-style' value='dashed' />
+            <format attr='border-width' value='2' />
+            <format attr='background-color' value='#70adf3' />
+          </zone-style>
+        </zone>
+        <zone h='50857' id='100' is-centered='0' is-scaled='1' param='/Users/marcosplazagonzalez/Desktop/Fonaments de la Ciència de Dades/Primer semestre/Presentació i visualització/Deliveries/Delivery_1/Task_5/silver-uk-map-hi.png' type-v2='bitmap' w='23375' x='37917' y='5143' />
+        <zone h='25143' id='3' name='Sheet 2 (2)' show-title='false' w='30292' x='66250' y='14714' />
+        <zone h='25500' id='9' name='Sheet 2 (3)' show-title='false' w='30625' x='66292' y='70214' />
+        <zone h='25214' id='25' name='ChildrenByRegion' show-title='false' w='30500' x='66250' y='42286' />
+        <zone h='37286' id='24' name='SalaryInequality' show-title='false' w='25375' x='2167' y='8786' />
+        <zone h='36571' id='17' name='Type of work' show-title='false' w='26542' x='2208' y='61000' />
+        <zone h='36071' id='18' name='Schedule Type Work' show-title='false' w='27875' x='30458' y='61071' />
+        <zone h='5786' id='8' name='Sheet 2 (2)' pane-specification-id='0' param='[federated.0wl72ac11suva61h6rsul1me2jgl].[usr:Calculation_2582392204321894405:qk]' single-line='false' type-v2='color' w='7792' x='66250' y='34000'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#666666' />
+          </zone-style>
+        </zone>
+        <zone h='5929' id='10' name='Sheet 2 (3)' pane-specification-id='0' param='[federated.0wl72ac11suva61h6rsul1me2jgl].[cnt:A172:qk]' single-line='false' type-v2='color' w='8958' x='66333' y='89643'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#666666' />
+          </zone-style>
+        </zone>
+        <zone h='5571' id='26' name='ChildrenByRegion' pane-specification-id='0' param='[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]' single-line='false' type-v2='color' w='9375' x='66292' y='61857'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#666666' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='18429' id='58' type-v2='text' w='11750' x='25667' y='9857'>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontsize='12'>NOTE!</run>
+            <run fontcolor='#ffffff' fontsize='12'> The </run>
+            <run bold='true' fontcolor='#ffffff' fontsize='12'>Lorenz curve</run>
+            <run fontcolor='#ffffff' fontsize='12'> is a graphical representation of the inequality of income distribution in a given territory. This graph represents the distribution of the total income among all the poblation.</run>
+            <run fontcolor='#000000' fontsize='12'>Æ </run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#ff9d9a' fontsize='12'>The ideal situation would be a line from (0,0) to (100,100) with slope 1.</run>
+          </formatted-text>
+        </zone>
+        <zone h='40714' id='21' type-v2='title' w='26333' x='33167' y='143' />
+        <zone forceUpdate='true' h='3071' id='67' type-v2='text' w='13042' x='2167' y='4857'>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontsize='24'>Salary</run>
+            <run fontcolor='#ffffff' fontsize='24'> inequality</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3714' id='68' type-v2='text' w='10458' x='2625' y='56357'>
+          <formatted-text>
+            <run bold='true' fontcolor='#22446b' fontsize='24'>Type </run>
+            <run fontcolor='#22446b' fontsize='24'>of work</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3500' id='69' type-v2='text' w='15375' x='30583' y='56357'>
+          <formatted-text>
+            <run bold='true' fontcolor='#182e48' fontsize='24'>Schedule</run>
+            <run fontcolor='#182e48' fontsize='24'> type work</run>
+          </formatted-text>
+        </zone>
+        <zone h='4143' id='70' name='Type of work' pane-specification-id='0' param='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:SexHRP:ok]' type-v2='color' w='9542' x='5458' y='62000' />
+        <zone forceUpdate='true' h='36214' id='77' is-centered='0' is-scaled='1' param='/Users/marcosplazagonzalez/Desktop/diagonal.png' type-v2='bitmap' w='22417' x='2875' y='8857' />
+        <zone forceUpdate='true' h='4143' id='93' type-v2='text' w='29958' x='66083' y='4000'>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontsize='24'>Geographical</run>
+            <run fontcolor='#ffffff' fontsize='24'> stats</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3000' id='94' type-v2='text' w='10583' x='85792' y='14714'>
+          <formatted-text>
+            <run bold='true' fontalignment='2' fontcolor='#000000' fontsize='18'>Saves per income</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='6143' id='98' type-v2='text' w='7542' x='88625' y='42429'>
+          <formatted-text>
+            <run bold='true' fontalignment='2' fontcolor='#333333' fontsize='18'>Children</run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run bold='true' fontalignment='2' fontcolor='#333333' fontsize='18'>per housing</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='5857' id='99' type-v2='text' w='11208' x='84917' y='70571'>
+          <formatted-text>
+            <run bold='true' fontalignment='2' fontcolor='#333333' fontsize='18'>Internet connection</run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run bold='true' fontalignment='2' fontcolor='#333333' fontsize='18'>per region</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='2000' id='107' type-v2='text' w='63500' x='-792' y='51214'>
+          <formatted-text>
+            <run bold='true' fontcolor='#898989' fontsize='24'>---------------------------------------------------------------------------------------------------------------------------------------------------</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='5643' id='130' type-v2='text' w='30250' x='66167' y='8143'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontsize='12'>From the</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='12'> geographical plots</run>
+            <run fontcolor='#ffffff' fontsize='12'>, we can draw conclusions on how to relate the mean percentage of income to other characteristics such as the number of childs in the housing.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{613C580A-FB32-40E2-BA76-F8DA28E32279}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 2 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wl72ac11suva61h6rsul1me2jgl].[usr:Calculation_2582392204321894405:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{8FBA828B-DC62-4F03-8B46-74C79E9B6866}' />
+    </window>
+    <window class='worksheet' name='Sheet 2 (3)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wl72ac11suva61h6rsul1me2jgl].[cnt:A172:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{9C8EF70E-93FC-4BB0-82B4-F62E6BFDC87E}' />
+    </window>
+    <window class='worksheet' name='Type of work'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:SexHRP:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{47CE12E8-ED01-49EC-9F9E-67F5AC69E72A}' />
+    </window>
+    <window class='worksheet' name='Schedule Type Work'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0wl72ac11suva61h6rsul1me2jgl].[none:Economic position of Household Reference Person (copy)_1825576359608254465:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F897704C-CB0F-46DE-9B41-FD128CA7DF6E}' />
+    </window>
+    <window class='worksheet' name='ChildrenByRegion'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0wl72ac11suva61h6rsul1me2jgl].[avg:G019r:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{53556412-E282-4250-AC51-BF31B2CAA909}' />
+    </window>
+    <window class='worksheet' name='SalaryInequality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4DFB816B-E6D3-4FD9-B7DA-77388C312712}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='ChildrenByRegion'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='SalaryInequality' />
+        <viewpoint name='Schedule Type Work'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2 (2)'>
+          <zoom type='entire-view' />
+          <map-scale-visibility value='0' />
+          <default-map-tool-selection tool='1' />
+          <default-map-unit-selection mapunit='1' />
+        </viewpoint>
+        <viewpoint name='Sheet 2 (3)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Type of work'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview>
+        <device name='iPad Pro 12.9-inch' type='Desktop' />
+        <device name='iPad Mini' type='Tablet' />
+      </device-preview>
+      <simple-id uuid='{12E4ED7E-2B68-4EF4-A27F-3C4D49BE13B1}' />
+    </window>
+  </windows>
+</workbook>
